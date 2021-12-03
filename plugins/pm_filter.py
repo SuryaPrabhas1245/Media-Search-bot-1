@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Source Code', url='https://github.com/suryaprabhas1245/Media-Search-bot-1')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/suryaprabhas'>Prabhas</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/suryaprabhas1245/Media-Search-bot-1'>Click here</a>\nUpdate Channel : <a href='https://t.me/TeluguDubbedHorrorMovies2'>Click Me</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/suryaprabhas1245'>Prabhas</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/suryaprabhas1245/Media-Search-bot-1'>Click here</a>\nUpdate Channel : <a href='https://t.me/TeluguDubbedHorrorMovies2'>Click Me</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('Support ⚡', url='https://t.me/suryaprabhas1245'),
+                        InlineKeyboardButton('Join 🔥', url='https://t.me/TeluguDubbedHorrorMovies2')
                     ]
                     ]
                 
@@ -345,7 +345,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Joim', url='https://t.me/TeluguDubbedHorrorMovies2')
+                        InlineKeyboardButton('Join 🔥', url='https://t.me/TeluguDubbedHorrorMovies2')
                     ]
                     ]
                 
